@@ -6,7 +6,7 @@ pipeline {
        appRegistry = "508837979338.dkr.ecr.ap-northeast-1.amazonaws.com/capstoneproject"
        capstoneRegistry = "http://508837979338.dkr.ecr.ap-northeast-1.amazonaws.com"
        cluster = "capstone"
-        service = "capstone_service2"
+        service = "ccapstoneprojectservice"
    }
 
     stages {
