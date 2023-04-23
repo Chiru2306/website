@@ -2,11 +2,11 @@ pipeline {
     agent any
 
      environment{
-       registryCredential = 'ecr:<zone>:<CredentialID>'
-       appRegistry = "<Registry Name>"
-       capstoneRegistry = "<Registry Url>"
-       cluster = "<Cluster Name>"
-        service = "<Service Name>"
+       registryCredential = 'ecr:ap-northeast-1:awscred'
+       appRegistry = "508837979338.dkr.ecr.ap-northeast-1.amazonaws.com/capstoneproject"
+       capstoneRegistry = "http://508837979338.dkr.ecr.ap-northeast-1.amazonaws.com"
+       cluster = "capstone"
+        service = "capstone_service"
    }
 
     stages {
