@@ -3,8 +3,8 @@ pipeline {
 
      environment{
        registryCredential = 'ecr:ap-northeast-1:awscred'
-       appRegistry = "508837979338.dkr.ecr.ap-northeast-1.amazonaws.com/capstoneproject"
-       capstoneRegistry = "http://508837979338.dkr.ecr.ap-northeast-1.amazonaws.com"
+       appRegistry = 508837979338.dkr.ecr.ap-northeast-1.amazonaws.com/capstoneproject"
+       capstoneRegistry = "https://508837979338.dkr.ecr.ap-northeast-1.amazonaws.com"
        cluster = "capstone"
         service = "ccapstoneprojectservice"
    }
